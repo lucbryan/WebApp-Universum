@@ -1,0 +1,76 @@
+body{
+    position:absolute;
+    text-align:center;
+    background: url('../../imgs/rain.gif');
+	background-color: black;
+}
+
+button{
+	background-color: transparent;
+	border-color: gray;
+	color: gray;
+	font: Courier, courier-new;
+	margin-top:20px;
+	z-index: 100;
+		
+
+}
+#bttn_area{
+	margin-top:-20px;
+	z-index: 100;
+	position:absolute;
+	text-align: center;
+		margin-left: 600px;
+
+
+}
+
+input{	
+	background-color: black;
+	border-color: black;
+	color: grey;
+	font: Courier, courier-new;
+}
+
+img{
+    opacity: 40%;
+    width: 1350px;
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+    display: none; 
+}
+
+#load{
+    margin-top:-1200px;
+    width:100%;
+    height:5000px;
+    margin-left: -8px;
+    position:fixed;
+    z-index:9999;
+    background:url("../../imgs/eye.gif") center;
+    filter: opacity(1);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #52636a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2f090a;
+}
+

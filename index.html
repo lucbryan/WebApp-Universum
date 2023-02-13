@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-K9T84LK');
+	</script>
+	<!-- End Google Tag Manager -->
+    	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-90XYLGEH5F"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-90XYLGEH5F');
+	</script>
+
+
+	<title>Oui</title>
+    <link rel="shortcut icon" href="imgs/alien.ico" type="image/x-icon">	
+	<link rel="stylesheet" href="libraries/css/stylesheet.css">
+</head>
+
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9T84LK"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<div id="load"></div>
+
+    <main>
+        
+	    <div id="stars-group-1"></div>
+	    <div id="stars-group-2"></div>
+	    <div id="stars-group-3"></div>
+	    <div id="stars-group-4"></div>
+	    <div id="stars-group-5"></div>
+	    <div id="stars-group-6"></div>
+
+	    <br>
+
+    <div class = "container" id="imagem_galaxia">
+
+    	<input type="text" placeholder="" id="myInput" spellcheck="false">
+	    <input type="button" id="go" value = "☾" onclick="go_to();">
+	    <input type="button" id = "play" class="boton" value=" &#9658;" onclick="timer_();">
+	    <script> document.getElementById("play").style.visibility = "hidden"</script>
+	    <div id="timer" style='text-align:right'></div>
+	    <p id = 'message_'> <br> </p>
+
+
+    	<div class="container" id="planeta">
+	    	<div id="pic"></div>
+	        <div class="clouds"></div>
+	        <p id='message'>
+			<br><br>
+		        	Who am i then? <br>
+		        	Tell me that first, and then, if I like being that person, I'll come up. if not, I'll stay down here till I'm someone else.
+			</p>
+
+			<p id='messageII'> <br><br> </p>
+
+		</div>
+		<div id="parte_azul">
+			<div class="cloudsII"></div>
+			<div id="mountain"> </div>
+			<img id="ghost" src="imgs/ghost.png">
+		</div>
+
+
+    </div>
+
+
+
+        
+    <audio id="01" loop> <source src="musicas/space.mp3"  type="audio/mp3"></audio>
+    <audio id="02" src="musicas/event01.mp3"></audio>
+    <audio id="03" src="musicas/alien.mp3"></audio>
+    <audio id="unlock" src="musicas/unlock.mp3"></audio>
+
+	    
+
+
+
+
+    <!-- Flocos de neve que cairam após o primeiro acerto -->
+	<div class="snowflakes" id = "snow" aria-hidden="true" style="display:none;">
+	  <div class="snowflake">
+	  ❅
+	  </div>
+	  <div class="snowflake">
+	  ❅
+	  </div>
+	  <div class="snowflake">
+	  ❆
+	  </div>
+	  <div class="snowflake">
+	  ❄
+	  </div>
+	  <div class="snowflake">
+	  ❅
+	  </div>
+	  <div class="snowflake">
+	  ❆
+	  </div>
+	  <div class="snowflake">
+	  ❄
+	  </div>
+	  <div class="snowflake">
+	  ❅
+	  </div>
+	  <div class="snowflake">
+	  ❆
+	  </div>
+	  <div class="snowflake">
+	  ❄
+	  </div>
+	</div>
+	
+	</main>
+	
+	<footer style="background-color:black;">
+		<div class = "container" id="parte_escura">
+		</div>
+
+	</footer>
+
+
+	<script >
+		document.onreadystatechange = function () {
+ 		 var state = document.readyState;
+  		if (state == 'complete') {
+      setTimeout(function(){
+          document.getElementById('interactive');
+          document.getElementById('load').style.visibility="hidden";
+      },5400);
+
+  }
+}
+	</script>
+
+
+	<script src="libraries/javascript/javascript.js"></script>
+
+
+</body>
+</html>
